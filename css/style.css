@@ -43,12 +43,11 @@ body {
 
 /* button */
 .button {
+}
+.button__link {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-}
-.button__link {
-  flex: 1 1 211px;
   min-height: 40px;
   font-weight: 700;
   font-size: 12px;
@@ -374,6 +373,8 @@ body {
 }
 
 .item-service__icon {
+  max-height: 63px;
+  max-width: 63px;
 }
 
 .item-service__picture:not(:last-child) {
